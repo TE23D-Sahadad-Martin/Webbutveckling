@@ -1,0 +1,58 @@
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    margin: 0;
+    background-image: url('./img/showcase.jpg');
+    background-size: cover;         
+    background-position: center;    
+    background-attachment: fixed;   
+    background-repeat: no-repeat;   
+}
+
+header {
+    background-color: yellow;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    color: blue;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+.artikel {
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #000;
+}
+
+.artikel h2 {
+    margin-bottom: 10px;
+}
+
+.artikel img {
+    width: 100px;
+    height: auto;
+}
+
+.artikel p {
+    font-size: 14px;
+}
+
+.sidfot {
+    text-align: center;
+    padding: 20px;
+    background-color: gray;
+}
+
+.sidfot img {
+    width: 300px;
+    height: auto;
+}

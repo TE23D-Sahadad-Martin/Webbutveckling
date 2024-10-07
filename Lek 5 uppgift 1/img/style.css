@@ -1,0 +1,70 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: lightblue;
+    padding: 10px;
+    border: 2px solid red;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.rubrik1 {
+    background-color: cyan;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid black;
+    flex-grow: 1;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+
+.rubriker-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+.rubrik {
+    width: 45%;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    border: 2px solid black;
+}
+
+.vanster {
+    background-color: yellow;
+}
+
+.hoger {
+    background-color: pink;
+}
+
+
+.text-container {
+    padding: 20px;
+    background-color: lightyellow;
+    border: 2px solid green;
+}
+
+.text-container p {
+    font-size: 16px;
+    line-height: 1.6;
+}
