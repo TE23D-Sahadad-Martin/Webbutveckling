@@ -1,8 +1,9 @@
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f9f9f9;
+    background-image: url(./img/snabblagad_korvstroganoff.jpg);
 }
 
 .container {
@@ -37,19 +38,25 @@ header h1 {
 }
 
 .full-width {
-    grid-column: span 2; 
+    grid-column: span 2;
 }
 
 .placeholder {
     background-color: #e0e0e0;
-    height: 150px;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 14px;
-    color: #777;
+    flex-wrap: wrap; 
+    gap: 5px;
+    padding: 10px;
+    border: 1px dashed #ccc;
 }
 
-h2 {
-    margin-top: 0;
+.placeholder img {
+    width: 30%; 
+    max-width: 100px; 
+    height: auto;
+    object-fit: contain; 
+    display: block;
 }
