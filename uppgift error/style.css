@@ -1,0 +1,17 @@
+
+
+
+
+
+div{
+    display: grid;
+    grid-template-columns: 1fr 2fr 3fr;
+    grid-template-rows: 30vh 10vh; 
+    gap: 10px;
+}
+
+header{
+    display: flex; 
+    justify-content: center;
+
+}

@@ -1,0 +1,94 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    border: 3px solid #D6001C;
+}
+
+
+.header {
+    text-align: center;
+    background-image: url('./img/snow_winter_trees.jpg');
+    background-size: cover;
+    padding: 20px;
+    border-bottom: 3px solid #D6001C;
+}
+
+.header h1 {
+    font-family: 'Mountains of Christmas', cursive;
+    color: black;
+    font-size: 36px;
+}
+
+
+.logos {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+.logos img {
+    height: 50px;
+}
+
+
+.main-content {
+    display: flex;
+    padding: 20px;
+}
+
+.left-section {
+    width: 20%;
+    padding-right: 10px;
+    border-right: 3px solid #D6001C;
+}
+
+.left-section a {
+    text-decoration: none;
+    color: #D6001C;
+    display: block;
+    margin: 10px 0;
+}
+
+
+.right-section {
+    width: 55%;
+    padding: 0 20px;
+}
+
+.right-section p {
+    margin: 20px 0;
+}
+
+
+.right-image {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-image img {
+    width: 100%;
+}
+
+
+.footer {
+    text-align: center;
+    padding: 10px;
+    border-top: 3px solid #D6001C;
+    background-color: #f2f2f2;
+}
+
+.footer a {
+    color: #D6001C;
+    text-decoration: none;
+    font-weight: bold;
+}
